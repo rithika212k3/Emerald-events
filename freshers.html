@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .img {
+       
+        display: flex;
+        image-orientation: flip;
+        justify-content: center;
+        border: image width 10px;
+        
+      }
+    </style>
+    </head>
+    <body>
+        <div class="img">
+        <img class="mySlides" src="https://lh3.googleusercontent.com/pw/AL9nZEVbsUx78zNr1aiRGdQ5BSmAsuJdq83fcjimx8vtoeLImiHTZEO7iFRgsO0Lb72ERI1F8BwtAb9UdPAIbufXHQMSkkcI34oV1LF3pQe_SkxyBS1nRVmL87vIWqXuIcwJBim16XQpNYKjZ4b5WAJlgyFb=w900-h600-no" >
+        <img class="mySlides" src="https://lh3.googleusercontent.com/pw/AL9nZEVrKU2CMxGg6HVu6MuRZo9sRWD-ru3j8xlp9E2UNiXIpb7eo76Y31mf2AMpdN_ogPEjMGWKIfIjqONaXbVUBlLG66_LPpX_rdS4pE0YtnsYIFcLbpBd1JMPqOjltRcKC_Ma7eQkQvwCSJG4maRAsrBs=w900-h600-no" >
+        <img class="mySlides" src="https://lh3.googleusercontent.com/pw/AL9nZEVFe8Ure1SBaJjSEpQ7bCaRScX4DW9z4tvaoM-qWi5--2dvsuHOJEBharHrVzmObbM1jcLTFnAmNw6PBjy4fdSrfyY09UZprVe_J9h8OkJuWfmn75RNEtIQUnU7_aMkuFNZqFhQ0D9Id3Sjoy5EmYT6=w900-h600-no" >
+        <img class="mySlides" src="https://lh3.googleusercontent.com/pw/AL9nZEWryJzudsEpF3gZwZbazV83wTI_rBoBZC0R9LhkJdraE-4sOHwdy41zBb9HHBkIpFHPHOaXS3xESNYTEfQcmPlrSPv8qlO_PvLjoQ1dKyHjLGjAg0626w1932Akaq5_m78hfTekKmNVx4cqT49csqj7=w900-h600-no" >
+        <img class="mySlides" src="https://lh3.googleusercontent.com/pw/AL9nZEW_k5Rct4F7ODcf5ZsGTL7M4F1WSaZnyuzCfeXtZzD3PGne901n6_ODd54_KqLykJMjqSdAHMQ9QhNDvDCSYVGWeYb9BLBJeupxi9k3bqRdMCgTivAGHLalrhH7xL2tRxddUHh2EOyYs1ZPL8r_WCE5=w900-h600-no" >
+        <img class="mySlides" src="https://lh3.googleusercontent.com/pw/AL9nZEUyWxfsS-ZUJak2exJjYR2UoNDWWcXnD7u6jmOQImNPSmu2Ff951zQsWm6ZE6EFip-ibBTmBXzSpcyDwvctQLddrAgCxad705GYm1ShQXV1PcRujtuU8CkV6MqlFXF1nbjZXYlqROKKTx8HOJR3OnjH=w900-h600-no" >
+      </div>
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 1000);
+      }
+      </script>
+    
+    </body>
+    </html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple HTML HomePage</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styled.css"> 
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">EVENT MANAGEMENT</a>
+    <nav class="nav-items">
+
+      <a href="Birthday.html"><button><b>BIRTHDAY EVENTS</b></button></a>
+      <a href="wedding events.html"><button><b>MARRIAGE EVENTS</b></button></a>
+      
+      <a href="#"><style>
+        .dropbtn {
+          background-color: #0468aa;
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown-content a:hover {background-color: #ddd;}
+        
+        .dropdown:hover .dropdown-content {display: block;}
+        
+        .dropdown:hover .dropbtn {background-color: #3e8e41;}
+        </style>
+        </head>
+        
+        <body>
+        
+        <div class="dropdown">
+          <button class="dropbtn">OUR OTHER BEST EVENTS</button>
+          <div class="dropdown-content">
+            <a href="freshers .html">FRESHERS</a>
+            <a href="DHI.html">DHI</a>
+            <a href="SEEKH.html">SEEKH</a>
+          </div>
+        </div>
+        </a>
+      
+    </nav>
+  </header>
+  <main>
+    <div class="intro">
+      <h1>EMERALD EVENT MANAGEMENT</h1>
+      <p>best-event-management</p>
+      <a href="learnmore.html"><button><b>Learn More</b></button></a>
+    </div>
+    <div class="achievements">
+      <div class="work">
+        <i class="fas fa-atom"></i> 
+        <p class="work-heading">Projects</p>
+        <p class="work-text"><em>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ad, exercitationem quam deleniti fugit laborum, molestias accusantium eaque cum dicta natus facere magnam nesciunt qui cumque laboriosam expedita ea voluptate.</em></p>
+      </div>
+      <div class="work">
+        <i class="fas fa-skiing"></i>
+        <p class="work-heading">Skills</p>
+        <p class="work-text"><em >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, iure minima. Autem delectus repellendus iste explicabo ad odit voluptatem corporis maxime vel, sunt cupiditate inventore, fugit voluptates vitae obcaecati suscipit?</em></p>
+      </div>
+      <div class="work">
+        <i class="fas fa-ethernet"></i>
+        <p class="work-heading">Network</p>
+        <p class="work-text"><em>I have a lot of network skills and I am very good at them. I am very good at networking and I am always looking for new network skills.</em></p>
+      </div>
+    </div>
+    <div class="about-me">
+      <div class="about-me-text">
+        <h2>About us</h2>
+        <p>ipsum dolor sit amet consectetur adipisicing elit. Eius cum minima explicabo itaque similique sequi cupiditate eum inventore praesentium necessitatibus sint ab maxime, quia iusto fuga reiciendis tempore quaerat officiis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cum minima explicabo itaque similique sequi cupiditate eum inventore praesentium necessitatibus sint ab maxime, quia iusto fuga reiciendis tempore quaerat officiis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cum minima explicabo itaque similique sequi cupiditate eum inventore praesentium necessitatibus sint ab maxime, quia iusto fuga reiciendis tempore quaerat officiis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cum minima explicabo itaque similique sequi cupiditate eum inventore praesentium necessitatibus sint ab maxime, quia iusto fuga reiciendis tempore quaerat officiis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cum minima explicabo itaque similique sequi cupiditate eum inventore praesentium necessitatibus sint ab maxime, quia iusto fuga reiciendis tempore quaerat officiis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cum minima explicabo itaque similique sequi cupiditate eum inventore praesentium necessitatibus sint ab maxime, quia iusto fuga reiciendis tempore quaerat officiis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cum minima explicabo itaque similique sequi cupiditate eum inventore praesentium necessitatibus sint ab maxime, quia iusto fuga reiciendis tempore quaerat officiis.</p>
+      </div>
+      <button type="button" id="on" onmouseover="m1()" onmouseout="m2()" onclick="display()">display</button>
+        <img src="https://htmlcolorcodes.com/assets/images/colors/white-color-solid-background-1920x1080.png" id="friends">
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="copy">&copy; 2022 Developer</div>
+    <div class="bottom-links">
+      <div class="links">
+        <span>More Info</span>
+        
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="links">
+        <span>Social Links</span>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    function display()
+    {
+     document.getElementById('friends').src="https://www.quirkybyte.com/wp-content/uploads/2020/08/4-1.jpg"
+    }
+   
+    function m1()
+    {
+        document.getElementById('label').innerHTML="my paragraph";
+    }
+    function m2()
+    {
+        document.getElementById('label').innerHTML="";
+    }
+    function m3()
+    { 
+        alert("enterd m3");
+        console.log("enterd m3");
+        var element=document.createElement('h1');
+        element.innerHTML=Date();
+        document.body.appendChild(element);
+    }
+    
+</script>
+  
+  
+</body>
+
+</html>
